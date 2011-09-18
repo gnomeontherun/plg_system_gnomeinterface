@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.7" type="plugin" group="system">
+	<name>plg_system_modposition</name>
+	<author>Jeremy Wilken - Gnome on the run</author>
+	<creationDate>September 2011</creationDate>
+	<copyright>Copyright (C) 2011 Gnome on the run. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>gnomation@gnomeontherun.com</authorEmail>
+	<authorUrl>www.gnomeontherun.com</authorUrl>
+	<version>1.0.2</version>
+	<description>PLG_SYSTEM_MODPOSITION_DESC</description>
+	<files>
+		<filename plugin="modposition">modposition.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="el-GR">el-GR.plg_system_modposition.ini</language>
+		<language tag="el-GR">el-GR.plg_system_modposition.sys.ini</language>
+		<language tag="en-GB">en-GB.plg_system_modposition.ini</language>
+		<language tag="en-GB">en-GB.plg_system_modposition.sys.ini</language>
+		<language tag="sv-SV">sv-SV.plg_system_modposition.ini</language>
+		<language tag="sv-SV">sv-SV.plg_system_modposition.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/plugins/system/modposition">
+				<field name="filter_state" type="list" default="" description="PLG_SYSTEM_MODPOSITION_FILTERSTATE_DESC" label="PLG_SYSTEM_MODPOSITION_FILTERSTATE">
+					<option value="">JOPTION_SELECT_PUBLISHED</option>
+					<option value="1">JEnabled</option>
+					<option value="0">JDisabled</option>
+				</field>
+				<field name="filter_type" type="list" default="" description="PLG_SYSTEM_MODPOSITION_FILTERTYPE_DESC" label="PLG_SYSTEM_MODPOSITION_FILTERTYPE">
+					<option value="">JOPTION_SELECT_PUBLISHED</option>
+					<option value="user">PLG_SYSTEM_MODPOSITION_FILTERTYPE_USER</option>
+					<option value="template">PLG_SYSTEM_MODPOSITION_FILTERTYPE_TEMPLATE</option>
+				</field>
+				<field name="filter_template" type="templates" default="" description="PLG_SYSTEM_MODPOSITION_FILTERTEMPLATE_DESC" label="PLG_SYSTEM_MODPOSITION_FILTERTEMPLATE" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
