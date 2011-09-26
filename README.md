@@ -9,11 +9,11 @@ The Gnome Interface plugin does some simple things to make managing and editing 
 
 ##Installation
 
-To install first download the file from here if you have not already. Then log into the administrator and go to the Extensions menu->Install/Uninstall. From this spot you can install the plugin by clicking Browse and locating the file. Then click Upload and Install. It will install the plugin by default as disabled. So you need to go to the Extensions->Plugin Manager area and locate the new plugin called 'System - Module Position Defaults' and click on the title. Here you can edit the default filters to be used. Make sure that you enable the plugin and save the item. The next time you go to the module manager the defaults will be applied.
+To install first download the file from here if you have not already. Then log into the administrator and go to the Extensions menu->Install/Uninstall. From this spot you can install the plugin by clicking Browse and locating the file. Then click Upload and Install. It will install the plugin by default as disabled. So you need to go to the Extensions->Plugin Manager area and locate the new plugin called 'System - Gnome Interface Tweaks' and click on the title. Here you can edit the settings.
 
 ##License
 
-This is released under GPL v2.
+This is released under GPL v3.
 
 ##Support
 
@@ -27,6 +27,7 @@ We don't really provide support for this, if you have a problem though you shoul
 
 ##Changelog
 
+1.1 - 26 Sept, 2011 - Added a tweak for the article edit layout page to show the editor higher, renamed plugin
 1.0.2 - 18 Sept, 2011 - Fixed quick list, now pulls in all positions from default template, reorders add module window so they are in two columns instead of floated side by side
 1.0.1 - 12 Sept, 2011 - Added Greek, Swedish translations
 1.0 - 9 Sept, 2011 - Initial launch

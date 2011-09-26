@@ -4,7 +4,7 @@
 	<author>Jeremy Wilken - Gnome on the run</author>
 	<creationDate>September 2011</creationDate>
 	<copyright>Copyright (C) 2011 Gnome on the run. All rights reserved.</copyright>
-	<license>GNU General Public License version 3</license>
+	<license>GNU General Public License v3</license>
 	<authorEmail>gnomation@gnomeontherun.com</authorEmail>
 	<authorUrl>www.gnomeontherun.com</authorUrl>
 	<version>1.1</version>
@@ -12,12 +12,27 @@
 	<files>
 		<filename plugin="gnomeinterface">gnomeinterface.php</filename>
 		<filename>index.html</filename>
+		<folder>fields</folder>
 	</files>
 	<languages folder="language">
 		<language tag="el-GR">el-GR.plg_system_gnomeinterface.ini</language>
 		<language tag="el-GR">el-GR.plg_system_gnomeinterface.sys.ini</language>
+		
 		<language tag="en-GB">en-GB.plg_system_gnomeinterface.ini</language>
 		<language tag="en-GB">en-GB.plg_system_gnomeinterface.sys.ini</language>
+		
+		<!--<language tag="es-ES">es-ES.plg_system_gnomeinterface.ini</language>
+		<language tag="es-ES">es-ES.plg_system_gnomeinterface.sys.ini</language>
+		
+		<language tag="nb-NO">nb-NO.plg_system_gnomeinterface.ini</language>
+		<language tag="nb-NO">nb-NO.plg_system_gnomeinterface.sys.ini</language>
+		
+		<language tag="nl-NL">nl-NL.plg_system_gnomeinterface.ini</language>
+		<language tag="nl-NL">nl-NL.plg_system_gnomeinterface.sys.ini</language>-->
+		
+		<language tag="pt-BR">pt-BR.plg_system_gnomeinterface.ini</language>
+		<language tag="pt-BR">pt-BR.plg_system_gnomeinterface.sys.ini</language>
+		
 		<language tag="sv-SV">sv-SV.plg_system_gnomeinterface.ini</language>
 		<language tag="sv-SV">sv-SV.plg_system_gnomeinterface.sys.ini</language>
 	</languages>

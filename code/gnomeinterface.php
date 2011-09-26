@@ -1,12 +1,11 @@
 <?php
 
 /**
- * @version     $Id$
  * @category	Joomla
  * @package     Plugins
  * @subpackage  Modpoisition
  * @copyright   Copyright (C) 2011 Gnome on the run. All rights reserved.
- * @license     GNU GPLv2 <http://www.gnu.org/licenses/gpl.html>
+ * @license     GNU GPLv3 <http://www.gnu.org/licenses/gpl.html>
  * @author      Jeremy Wilken - Gnome on the run
  * @link        http://www.gnomeontherun.com
  */
