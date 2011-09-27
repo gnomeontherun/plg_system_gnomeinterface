@@ -43,7 +43,11 @@ class plgSystemGnomeinterface extends JPlugin
 						'class'	: 'panel'});
 					panel.set('html', '<h3 id=\"article-details\" class=\"pane-toggler title\"><a href=\"javascript:void(0);\"><span>".JText::_('PLG_SYSTEM_GNOMEINTERFACE_ARTICLE_DETAILS')."</span></a></h3><div class=\"pane-slider content\"><fieldset class=\"panelform\" id=\"article-details-content\"></fieldset></div>');
 
-					$('content-sliders-').grab(panel, 'top');
+					if ($('content-sliders-1') == null) { 
+						$('content-sliders-').grab(panel, 'top');
+					} else {
+						$('content-sliders-1').grab(panel, 'top');
+					}
 					
 					var index = 0;
 					$$('ul.adminformlist').each(function(element) {
@@ -128,7 +132,7 @@ class plgSystemGnomeinterface extends JPlugin
 					var link = button.get('href');
 					button.set('href', link+'".$filters."');
 					var list = new Element('select', {'id':'position_list'});
-					list.adopt(new Element('option', {'value':'','text':'".JText::_('PLG_SYSTEM_MODPOSITION_SELECT')."'}));
+					list.adopt(new Element('option', {'value':'','text':'".JText::_('PLG_SYSTEM_GNOMEINTERFACE_SELECT')."'}));
 					";
 					
 				foreach ($positions as $position) {
