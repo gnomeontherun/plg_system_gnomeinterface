@@ -58,6 +58,8 @@ class plgSystemGnomeinterface extends JPlugin
 					});
 				});
 				");
+
+                $doc->addStyleDeclarartion("#jform_articletext_tbl tr:nth-of-type(2){min-height: 500px;}");
 			}
 			
 			
