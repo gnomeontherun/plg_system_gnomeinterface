@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="1.7" type="plugin" group="system">
+<extension version="1.7" type="plugin" group="system" method="upgrade">
 	<name>plg_system_gnomeinterface</name>
 	<author>Jeremy Wilken - Gnome on the run</author>
 	<creationDate>September 2011</creationDate>
@@ -17,22 +17,22 @@
 	<languages folder="language">
 		<language tag="el-GR">el-GR.plg_system_gnomeinterface.ini</language>
 		<language tag="el-GR">el-GR.plg_system_gnomeinterface.sys.ini</language>
-		
+
 		<language tag="en-GB">en-GB.plg_system_gnomeinterface.ini</language>
 		<language tag="en-GB">en-GB.plg_system_gnomeinterface.sys.ini</language>
-		
+
 		<!--<language tag="es-ES">es-ES.plg_system_gnomeinterface.ini</language>
 		<language tag="es-ES">es-ES.plg_system_gnomeinterface.sys.ini</language>
-		
+
 		<language tag="nb-NO">nb-NO.plg_system_gnomeinterface.ini</language>
 		<language tag="nb-NO">nb-NO.plg_system_gnomeinterface.sys.ini</language>
-		
+
 		<language tag="nl-NL">nl-NL.plg_system_gnomeinterface.ini</language>
 		<language tag="nl-NL">nl-NL.plg_system_gnomeinterface.sys.ini</language>-->
-		
+
 		<language tag="pt-BR">pt-BR.plg_system_gnomeinterface.ini</language>
 		<language tag="pt-BR">pt-BR.plg_system_gnomeinterface.sys.ini</language>
-		
+
 		<language tag="sv-SV">sv-SV.plg_system_gnomeinterface.ini</language>
 		<language tag="sv-SV">sv-SV.plg_system_gnomeinterface.sys.ini</language>
 	</languages>
